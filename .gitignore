@@ -4,4 +4,4 @@
 log/
 downloads/
 .env
-.venv
+venv/
