@@ -9,7 +9,7 @@ from random import randint
 
 my_list1 = []
 my_list2 = []
-my_list3 = []
+# my_list3 = []
 
 length = 0
 
@@ -22,11 +22,11 @@ while length < 10:
     my_list1.append(num1)
     my_list2.append(num2)
 
-    # check for common integers without duplicates
-    if num1 == num2 and num1 not in my_list3:
-        my_list3.append(num1)
-
+    # # check for common integers without duplicates
+    # if num1 == num2 and num1 not in my_list3:
+    #     my_list3.append(num1)
     length += 1
-print(my_list1)
-print(my_list2)
-print(my_list3)
+
+my_list3 = set(my_list1) ^ set(my_list2)
+
+print(list(my_list3))
