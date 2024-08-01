@@ -10,6 +10,6 @@ my_list = []
 
 while len(my_list) < 10:
     my_list.append(randint(1, 100))
-    if len(my_list) == 10:
-        print(max(my_list))
+
 print(my_list)
+print(max(my_list))
