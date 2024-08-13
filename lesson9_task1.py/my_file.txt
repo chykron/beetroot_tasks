@@ -1,0 +1,3 @@
+This is test assignment
+in form of the text string.
+Thanks for your attention!
